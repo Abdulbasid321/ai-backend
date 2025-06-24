@@ -12,6 +12,7 @@
     "franc": "^6.2.0",
     "franc-min": "^6.2.0",
     "fs": "^0.0.1-security",
+    "git-filter-repo": "^0.0.30",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.2",
