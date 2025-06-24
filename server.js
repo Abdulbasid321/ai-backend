@@ -113,7 +113,8 @@ const cors = require('cors');
 require('dotenv').config();
 
 const symptomRoutes = require('./src/routes/symptom.routes');
-const MONGO_URI = 'mongodb://127.0.0.1:27017/checker';
+// const MONGO_URI = 'mongodb://127.0.0.1:27017/checker';
+const MONGO_URI = 'mongodb+srv://abdulbasidhussain:abdul123@cluster0.yflxqwa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const app = express();
 app.use(cors());
 app.use(express.json());
